@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #94d2bd;
+    padding: 40px;
+    text-align: center;
+}
+
+.about, .programs {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+}
+
+main.profil {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+main.profil h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #005f73;
+}
+
+main.profil section {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+main.profil h3 {
+    color: #0a9396;
+    margin-top: 0;
+}
+
+main.profil ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+main.program {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+main.program h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #005f73;
+}
+
+.program-item {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 6px solid #0a9396;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.program-item h3 {
+    margin-top: 0;
+    color: #0a9396;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+main.kontak {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+main.kontak h2 {
+    text-align: center;
+    color: #005f73;
+    margin-bottom: 30px;
+}
+
+.info-kontak {
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 6px solid #0a9396;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-kontak {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-kontak h3 {
+    color: #0a9396;
+    margin-top: 0;
+}
+
+.form-kontak label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-kontak input,
+.form-kontak textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-kontak button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0a9396;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-kontak button:hover {
+    background-color: #007f7f;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
